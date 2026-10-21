@@ -707,6 +707,9 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       if (STATUSES.indexOf(v.status) === -1) out.push(where + ": status should be one of " + STATUSES.join(", ") + ".");
       if (v.status === "published" && !v.youtubeId) out.push(where + ": it's marked published, so add its youtubeId.");
     });
+    var d = (c.site && c.site.discussion) || {};
+    var filled = ["repo", "repoId", "category", "categoryId"].filter(function (k) { return d[k]; });
+    if (filled.length && filled.length < 4) out.push("site.discussion: fill in all four of repo, repoId, category and categoryId, or leave all four blank.");
     if (c.about) checkBody("About", c.about.body);
     return out;
   }
@@ -1065,16 +1068,16 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
     }
     var disc = el("section", { class: "block", id: "discussion", "aria-labelledby": "disc-h" }, [el("h2", { id: "disc-h" }, "Honk if you agree")]);
     var d = C.site.discussion || {};
-    if (d.cusdisAppId) {
-      disc.append(el("p", { class: "small muted" }, "Disagree? Honk anyway. Add a name and a comment, no account needed. Comments appear after I approve them. Keep it kind: this is a community space."));
-      disc.append(el("div", { id: "cusdis_thread", "data-host": "https://cusdis.com", "data-app-id": d.cusdisAppId, "data-page-id": s.slug,
-        "data-page-url": location.origin + location.pathname + "#/story/" + s.slug, "data-page-title": s.title, "data-theme": "auto" }));
-      if (window.CUSDIS) { setTimeout(window.CUSDIS.initial, 0); }
-      else if (!document.getElementById("cusdis-js")) {
-        var cs = document.createElement("script");
-        cs.id = "cusdis-js"; cs.src = "https://cusdis.com/js/cusdis.es.js"; cs.async = true; cs.defer = true;
-        document.head.appendChild(cs);
-      }
+    if (d.repo && d.repoId && d.category && d.categoryId) {
+      disc.append(el("p", { class: "small muted" }, "Disagree? Honk anyway. Comments use a free GitHub account. Keep it kind: this is a community space."));
+      var gs = document.createElement("script");
+      gs.src = "https://giscus.app/client.js";
+      gs.async = true;
+      gs.crossOrigin = "anonymous";
+      [["repo", d.repo], ["repo-id", d.repoId], ["category", d.category], ["category-id", d.categoryId],
+       ["mapping", "specific"], ["term", s.slug], ["strict", "1"], ["reactions-enabled", "1"], ["emit-metadata", "0"],
+       ["input-position", "top"], ["theme", "preferred_color_scheme"], ["lang", "en"]].forEach(function (kv) { gs.setAttribute("data-" + kv[0], kv[1]); });
+      disc.append(el("div", { class: "giscus" }), gs);
     } else {
       disc.append(el("p", { class: "discussion-note" }, "The horn works once the site launches. Until then, send thoughts and tips through the Team Up page."));
     }

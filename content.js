@@ -72,9 +72,15 @@ window.ACC_CONTENT = {
     // Visit counts, powered by GoatCounter (free, no cookies). Paste your GoatCounter code here,
     // for example "adaptivecruisectrl" if your address is adaptivecruisectrl.goatcounter.com. The README has the steps.
     analytics: { goatcounter: "adaptivecruisectrl" },
-    // Reader comments under each story, powered by Cusdis (name + comment, no sign-in; you approve each one).
-    // Paste the "App ID" from your Cusdis dashboard. While it's blank, stories show "The horn works once the site launches."
-    discussion: { cusdisAppId: "" },
+    // Reader discussion under each story, powered by giscus (free, runs on GitHub Discussions).
+    // Fill these in after the site is on GitHub. The README shows where to get each value.
+    // While they're blank, stories show "The horn works once the site launches."
+    discussion: {
+      repo: "ischemy22/adaptivecruisectrl",
+      repoId: "R_kgDOVSgTRA",
+      category: "Story Discussion",
+      categoryId: "DIC_kwDOVSgTRM4DJRWI",
+    },
   },
 
   // Bumper stickers: the playful labels on each story. The sidebar shows them all, bigger the more
