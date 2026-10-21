@@ -468,7 +468,7 @@ window.ACC_CONTENT = {
         },
       ],
       take: [
-        "A wheelchair-accessible robotaxi from Tesla would be incredible, incredible news. Saying it and building it are two different things, though, and right now there's only the saying. No date, no design, no vehicle.[^el] The engineering that goes into all of the Tesla products is nothing short of amazing, but I do wonder how high on the priority list this would be with everything else that they have going on.",
+        "A wheelchair-accessible robotaxi from Tesla would be incredible, incredible news. Saying it and building it are two different things, though, and right now there's only the saying.[^el] The engineering that goes into all of the Tesla products is nothing short of amazing, but I do wonder how high on the priority list this would be with everything else that they have flying on.",
         "The part I keep coming back to is how the chair gets secured. A driverless van has nobody to strap it down. Waymo's accessible vans are driven manually, and May Mobility keeps an operator aboard to run the ramp and secure the chair.[^wk] Whoever solves that with no person on board is solving the hard part.",
         "Then there's DC. The bill's one disability provision is an app for requesting rides.[^wk] An app is fine, but a ride request only matters if a vehicle that fits you shows up. It's worth asking what that vehicle has to be before 2028 gets here.",
         "Tesla put its answer on the record. I'll be watching for the next one, a date or a vehicle, and I'll update this story when it comes.",
