@@ -327,6 +327,9 @@ h3.also { font-size: 1.1rem; margin: 16px 0 8px; }
 .card h2 a:hover { text-decoration: underline; }
 .card-img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; background: var(--rule); }
 .card .summary { font-size: 1rem; }
+.take-badge { display: inline-block; align-self: start; font-family: var(--font-head); font-weight: 700; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--bronze); border: 1.5px solid var(--bronze); border-radius: 999px; padding: 2px 10px 1px; margin-bottom: 8px; }
+.feed-intro { margin: 18px 0 4px; padding: 14px 18px; font-size: 1.2rem; line-height: 1.55; max-width: 46rem; background: var(--card); border: 1px solid var(--rule); border-left: 6px solid var(--bronze); border-radius: 8px; box-shadow: 0 2px 0 var(--rule); }
+.feed-intro .take-badge { margin: 0 2px; font-size: 1.05rem; vertical-align: 0.05em; background: var(--bronze); color: var(--navy); }
 .read-more { font-weight: 700; display: inline-flex; align-items: center; min-height: 36px; }
 @media (max-width: 40rem) {
   .card { grid-template-columns: minmax(0, 1fr); }
@@ -463,7 +466,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
 /* ---------- Narrow screens ---------- */
 @media (max-width: 50rem) {
   .brand-name { font-size: 1.7rem; }
-  .bn-key { margin-left: -4px; }
+  .bn-key { margin-left: -3.7px; }
   .brand img { width: 64px; height: 64px; }
     .sheet { border: 0; }
   .tabs a { padding: 0 12px; }
@@ -891,6 +894,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
     var href = storyHref(s.slug);
     return el("article", { class: "card" }, [
       el("div", { class: "item-body" }, [
+        (s.take && s.take.length) ? el("span", { class: "take-badge" }, "Includes my take") : null,
         el("h2", {}, el("a", { href: href }, s.title)),
         byline(s),
         el("p", { class: "summary" }, inline(s.summary)),
@@ -908,6 +912,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       el("h1", { tabindex: "-1" }, active ? active.label : "The feed"),
       el("span", { class: "note", role: "status" }, list.length + (list.length === 1 ? " story" : " stories"))
     ])];
+    if (!active) nodes.push(el("p", { class: "feed-intro" }, ["Each story starts with the news, then comes ", el("span", { class: "take-badge" }, "my take"), " on why it matters to folks like us."]));
     if (active) nodes.push(el("div", { class: "sticker-head" }, [
       active.about ? el("p", {}, active.about) : null,
       el("p", {}, el("a", { href: "#/" }, "‹ Back to the whole feed"))
