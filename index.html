@@ -9,6 +9,8 @@
 <meta property="og:title" content="adaptivecruisectrl">
 <meta property="og:description" content="News and discussion on EVs, driver assistance and autonomous rides, from a disabled driver's seat.">
 <meta property="og:image" content="https://adaptivecruisectrl.com/og.png">
+<meta property="og:url" content="https://adaptivecruisectrl.com/">
+<link rel="canonical" href="https://adaptivecruisectrl.com/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="News and discussion on EVs, driver assistance and autonomous rides, from a disabled driver's seat.">
 <link rel="icon" type="image/png" href="favicon.png">
@@ -388,6 +390,9 @@ details.full > summary:focus-visible { outline: 3px solid var(--bronze); outline
 .gallery figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 5px; }
 .gallery .cap { display: block; color: var(--ink); font-size: 0.85rem; }
 .hero .cap { display: block; color: var(--ink); font-size: 0.85rem; }
+.inline-photo { margin: 18px 0; max-width: 17rem; }
+.inline-photo img { display: block; width: 100%; height: auto; border-radius: 12px; background: var(--rule); }
+.inline-photo figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 6px; }
 .lede { font-size: 1.25rem; line-height: 1.5; font-weight: 700; max-width: 40rem; margin-top: 16px; }
 :root[data-motion="reduce"] :root[data-contrast="high"] .take-box { margin-top: 26px; background: var(--box); color: var(--ink); border-left: 8px solid var(--bronze); border-radius: 12px; padding: 18px 20px; max-width: 42rem; }
 .take-box .take-label { display: inline-block; font-family: var(--font-head); font-weight: 700; font-size: 1.4rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--box-ink); margin-bottom: 4px; }
@@ -674,8 +679,9 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
     function checkBody(where, body) {
       if (!Array.isArray(body)) { out.push(where + ": body should be a list in [ ]."); return; }
       body.forEach(function (b, i) {
-        var ok = typeof b === "string" || (b && (typeof b.h === "string" || Array.isArray(b.list) || typeof b.quote === "string"));
-        if (!ok) out.push(where + ": body block " + (i + 1) + " isn't a paragraph, { h }, { list } or { quote }.");
+        var ok = typeof b === "string" || (b && (typeof b.h === "string" || Array.isArray(b.list) || typeof b.quote === "string" || typeof b.img === "string"));
+        if (!ok) out.push(where + ": body block " + (i + 1) + " isn't a paragraph, { h }, { list }, { quote } or { img }.");
+        if (b && typeof b.img === "string" && !b.alt) out.push(where + ": body block " + (i + 1) + " is a photo with no alt description.");
       });
     }
     if (!c.site || !c.site.name) out.push("site: name is missing.");
@@ -805,6 +811,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       if (b.h) return el("h2", {}, b.h);
       if (b.list) return el("ul", {}, b.list.map(function (li) { return el("li", {}, inline(li)); }));
       if (b.quote) return el("blockquote", {}, [el("p", {}, inline(b.quote)), b.by ? el("footer", {}, b.by) : null]);
+      if (b.img) return el("figure", { class: "inline-photo" }, [el("img", { src: b.img, alt: b.alt || "", loading: "lazy" }), b.caption ? el("figcaption", {}, b.caption) : null]);
       return null;
     });
   }
@@ -874,8 +881,10 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
   }
 
   /* ================= Views ================= */
+  // Real web address for a story (one page per story, built by build_public.py). Opened from a file, it falls back to #/story/.
+  function storyHref(slug) { return location.protocol === "file:" ? "#/story/" + slug : "/stories/" + slug + "/"; }
   function storyItem(s) {
-    var href = "#/story/" + s.slug;
+    var href = storyHref(s.slug);
     return el("article", { class: "card" }, [
       el("div", { class: "item-body" }, [
         el("h2", {}, el("a", { href: href }, s.title)),
@@ -971,7 +980,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
     }
     var copy = el("button", { class: "btn plain", type: "button" }, "Copy link");
     copy.addEventListener("click", function () {
-      var url = location.href.replace(/\/discuss$/, "");
+      var url = C.site.url + "/stories/" + s.slug + "/";
       navigator.clipboard.writeText(url).then(function () { copy.textContent = "Link copied"; }, function () { copy.textContent = url; });
     });
     tools.append(copy);
@@ -1110,7 +1119,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       body.push(el("ul", { class: "checks" }, v.checks.map(function (c) { return el("li", {}, c); })));
     }
     var related = stories.filter(function (s) { return s.video === v.id; });
-    if (related.length) body.push(el("p", { class: "topics" }, ["Related news: "].concat(related.map(function (s) { return el("a", { href: "#/story/" + s.slug }, s.title); }))));
+    if (related.length) body.push(el("p", { class: "topics" }, ["Related news: "].concat(related.map(function (s) { return el("a", { href: storyHref(s.slug) }, s.title); }))));
     return el("article", { class: "item", id: "video-" + v.id }, [
       el("div", { class: "item-body" }, body)
     ]);
@@ -1187,7 +1196,13 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
   var routed = false;
   function route() {
     if (speaking) speechSynthesis.cancel();
-    var parts = location.hash.replace(/^#\/?/, "").split("/");
+    var h = location.hash;
+    var r = h.indexOf("#/") === 0 ? h.slice(2) : (h === "" ? "" : null);
+    if (r === null) { if (routed) return; r = ""; }   // an in-page anchor like #main: keep the current view
+    var m = location.pathname.match(/\/stories\/([^\/]+)\/?$/);
+    if (m && r === "") r = "story/" + m[1];
+    var parts = r.split("/");
+    if (parts[0] === "story" && location.protocol !== "file:" && !m) { location.replace(storyHref(parts[1])); return; }
     var page = parts[0] || "";
     var v;
     if (page === "") v = viewFeed(null);
@@ -1246,6 +1261,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       box.append(a);
     });
   })();
+  document.querySelector(".skip").addEventListener("click", function (e) { e.preventDefault(); main.focus(); });
   window.addEventListener("hashchange", route);
   route();
 })();

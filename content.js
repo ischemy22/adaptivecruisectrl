@@ -59,6 +59,7 @@
 window.ACC_CONTENT = {
   site: {
     name: "adaptivecruisectrl",
+    url: "https://adaptivecruisectrl.com",   // your web address, no slash at the end. Used for story links, sharing and search.
     shortName: "ACC",
     tagline: "EV and driving-tech news from a disabled driver's seat.",
     intro:
@@ -104,11 +105,14 @@ window.ACC_CONTENT = {
       { h: "My story" },
       "In January 2022, I was 35 years old, married to my lovely wife of 8 years, a father to a 2-year-old, newly promoted at my job, and coming off wins in two fantasy football leagues. I was having an amazingly fruitful start to my year. I started dreaming up plans to buy fast cars I was nowhere near affording. As a more realistic way to scratch the itch, I bought myself a simracing rig and spent hours practicing, trying to get faster and faster.",
       "Later that month, *cue dramatic sound effect*, an ischemic stroke forced me to go slower and slower.",
+      { img: "photos/about-walking-hallway.jpg", alt: "A man seen from behind walking down a hospital hallway with a quad cane and a leg brace, a woman in scrubs beside him with a hand on his back", caption: "Walking the hall with my cane and brace." },
       "As I worked to adjust to my new limitations, I realized that getting back behind the wheel wasn't going to be something I could just practice my way into. I was fortunate enough to find my way into an EV, and found that the combination of one-pedal driving, an emphasis on tech-led safety features, and continued software improvement was the way to go. After putting myself into 3 cars in 4 years and spending countless hours on research and test drives, the search for the right car continues. For me that still comes down to one-pedal driving, safety features that do some of the work, and a company that keeps improving the software. This site and my videos are where I share what I find.",
       { h: "Why adaptivecruisectrl" },
       "I'm a driver who has had to work around a car instead of with it. This site is where I follow the news on electric vehicles and driving technology, and talk about what it means for drivers and riders like me.",
       "My videos focus on drivers living with the effects of a stroke, because that's the experience I know best. The site is for the whole disabled and adaptive community.",
       "Part of why I started this: on a trip to CA, my wife and I arrived late one night and had to jump through far more hoops than anyone should to get a car I could safely drive (including potentially lying to get onto a hotel shuttle located near the lot where Turo parking was allowed). I promised her I would try to help change that. This site is how I'm keeping that promise.",
+      "One-pedal driving gets a lot of us a teeny bit closer to a normal we know we'll never get back. Driving, and the freedom that comes with it, is empowering. I don\u2019t think the people who build these cars always know how much it means.",
+      "So here\u2019s my ask for anyone who builds them. Bring one-pedal driving to every EV and plug-in hybrid. Let it bring the car to a full stop, work in reverse, and hold it on a hill. Make it easy to find and easy to keep on.",
       { h: "How this site works" },
       "I'm not a first-on-the-ground reporter. I read the news other outlets break, link to the original report at the top of every story, and then say what I THINK it might mean for drivers like me.",
     ],
