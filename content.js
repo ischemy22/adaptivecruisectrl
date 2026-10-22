@@ -64,8 +64,8 @@ window.ACC_CONTENT = {
     tagline: "EV and driving-tech news from a disabled driver's seat.",
     intro:
       "News, deep dives and video reviews on electric vehicles, driver assistance and autonomous rides, from a disabled driver's seat.",
-    // Your business email. Leave it "" until you're ready to publish it.
-    contactEmail: "Ischemy22@gmail.com",
+    // Your business email, split at the @ so scrapers can't grep it. Format: ["name", "domain.com"]. Leave it [] to hide it.
+    contactEmail: ["Ischemy22", "gmail.com"],
     social: [
       { icon: "youtube", label: "YouTube: @adaptivecruisectrl-official", url: "https://www.youtube.com/@adaptivecruisectrl-official" },
       { icon: "instagram", label: "Instagram: @adaptivecruisectrl", url: "https://www.instagram.com/adaptivecruisectrl" },

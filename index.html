@@ -1157,7 +1157,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
 
   function viewCollaborate() {
     var c = C.collaborate || { title: "Let's team up", cards: [] };
-    var email = C.site.contactEmail;
+    var email = C.site.contactEmail ? C.site.contactEmail.join("@") : "";
     var nodes = [
       el("div", { class: "page-head" }, [el("h1", { tabindex: "-1" }, c.title)]),
       c.intro ? el("p", { class: "intro-big" }, inline(c.intro)) : null,
