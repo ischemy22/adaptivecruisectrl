@@ -432,6 +432,7 @@ details.full > summary:focus-visible { outline: 3px solid var(--bronze); outline
 .site-footer { background: var(--navy); color: var(--navy-ink); border-top: 4px solid var(--bronze); font-size: 0.85rem; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 20px; padding-block: 16px; }
 .site-footer a { color: var(--navy-ink); }
+.site-footer .disclaimer { flex-basis: 100%; margin: 0; max-width: 70ch; }
 .site-footer button { font: inherit; background: none; border: 0; color: var(--navy-ink); text-decoration: underline; cursor: pointer; min-height: var(--tap); padding: 0; }
 
 /* ---------- Content problems box ---------- */
@@ -514,6 +515,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
 
 <footer class="site-footer">
   <div class="wrap">
+    <p class="disclaimer"><strong>Please drive safely.</strong> Everything here is my own experience and opinion. It is not medical, legal, or professional advice. Driver-assist features like adaptive cruise control are there to help you. They don't drive for you, and you still need to be alert and ready to take over at any time. If you've had a stroke or another medical event, don't go back to driving, or try new vehicle tech, until your doctor says you're ready. Ask about a driving evaluation with a certified driver rehabilitation specialist (you can <a href="https://www.aded.net/page/725" rel="noopener">find one through ADED</a>). Rules differ by state, so check yours. Your abilities may be very different from mine, so don't assume a car that worked for me will work for you. NHTSA explains <a href="https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies" rel="noopener">how driver assistance technologies work</a>.</p>
     <p><span data-site-name-plain>adaptivecruisectrl</span>. Every review is of the car with no adaptive equipment added.</p>
     <p><button type="button" data-open-a11y>Reading &amp; display settings</button></p>
   </div>
