@@ -818,7 +818,7 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
       if (b.h) return el("h2", {}, b.h);
       if (b.list) return el("ul", {}, b.list.map(function (li) { return el("li", {}, inline(li)); }));
       if (b.quote) return el("blockquote", {}, [el("p", {}, inline(b.quote)), b.by ? el("footer", {}, b.by) : null]);
-      if (b.img) return el("figure", { class: "inline-photo" }, [el("img", { src: b.img, alt: b.alt || "", loading: "lazy" }), b.caption ? el("figcaption", {}, b.caption) : null]);
+      if (b.img) return el("figure", { class: "inline-photo" }, [el("img", { src: b.img, alt: b.alt || "", loading: "lazy" }), b.caption ? el("figcaption", {}, inline(b.caption)) : null]);
       return null;
     });
   }
