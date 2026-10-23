@@ -830,7 +830,8 @@ dialog.panel::backdrop { background: rgba(5, 10, 16, 0.6); }
     }).join(" "));
   }
   function ago(iso) {
-    var d = Math.floor((Date.now() - dateObj(iso).getTime()) / 86400000);
+    function dayStart(x) { return new Date(x.getFullYear(), x.getMonth(), x.getDate()); }
+    var d = Math.round((dayStart(new Date()) - dayStart(dateObj(iso))) / 86400000);
     if (d < 1) return "today";
     if (d === 1) return "yesterday";
     if (d < 14) return d + " days ago";
