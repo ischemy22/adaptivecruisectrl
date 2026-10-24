@@ -568,50 +568,6 @@ window.ACC_CONTENT = {
         { id: "td", title: "Lexus RZ EV skips one-pedal driving for familiarity's sake", publisher: "The Drive, Peter Nelson", date: "2023-03-13", url: "https://www.thedrive.com/news/2023-lexus-rz-ev-skips-one-pedal-driving-for-familiaritys-sake" },
       ],
     },
-    {
-      slug: "case-for-one-pedal",
-      title: "The case for one-pedal driving",
-      date: "2026-10-24",
-      status: "draft",
-      stickers: ["joy-ride", "one-pedal-club"],
-      summary: "Why one-pedal driving belongs in every EV and plug-in hybrid, and why it matters more than carmakers seem to think.",
-      body: [
-        "Original take, no news story to react to. Outline and thoughts go here.",
-      ],
-    },
-    {
-      slug: "case-for-on-screen-vents",
-      title: "The case for air vents you adjust on the screen",
-      date: "2026-10-24",
-      status: "draft",
-      stickers: ["joy-ride"],
-      summary: "Why vents that move from the touchscreen are an accessibility win, not a gimmick.",
-      body: [
-        "Original take, no news story to react to. Outline and thoughts go here.",
-      ],
-    },
-    {
-      slug: "case-for-remappable-buttons",
-      title: "The case for remappable buttons",
-      date: "2026-10-24",
-      status: "draft",
-      stickers: ["joy-ride"],
-      summary: "Let me decide what the button does. A hot take on custom controls.",
-      body: [
-        "Original take, no news story to react to. Outline and thoughts go here.",
-      ],
-    },
-    {
-      slug: "why-not-sexy-buttons",
-      title: "Why not sexy buttons for all cars",
-      date: "2026-10-24",
-      status: "draft",
-      stickers: ["joy-ride"],
-      summary: "If a few cars get great-feeling buttons, why not every car? A hot take.",
-      body: [
-        "Original take, no news story to react to. Outline and thoughts go here.",
-      ],
-    },
   ],
 
   videos: [
