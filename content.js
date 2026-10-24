@@ -111,7 +111,7 @@ window.ACC_CONTENT = {
       { h: "Why adaptivecruisectrl" },
       "I'm not a writer. I'm a driver who has had to work around a car instead of with it, and I was shocked at how hard it was to find one with the tools I need to drive.",
       "Part of why I started this: on a trip to CA, my wife, our young daughter and I arrived late one night and had to jump through far more hoops than anyone should to get a car I could safely drive (including potentially lying to get onto a hotel shuttle near the lot where Turo parking was allowed). I promised my wife I would try to help change that, and this site is how I'm keeping that promise. Here I follow the news on vehicles, usually electric (BEV) or plug-in hybrids (PHEV), and driving technology and talk about what it means for drivers and riders like me, hoping to push inclusivity in car features forward.",
-      "My videos focus on drivers living with the effects of a stroke, because that's the experience I know best. The site is for the whole disabled and adaptive community.",
+      "The stories are for everyone who drives or rides with an adaptation. My own stroke shapes what I notice and what I ask, so expect that angle.",
       "One-pedal driving gets a lot of us a teeny bit closer to a normal we know we'll never get back. Driving, and the freedom that comes with it, is empowering. I don\u2019t think the people who build these cars always know how much it means.",
       "So here\u2019s my ask for anyone who builds them. Bring one-pedal driving to every EV and plug-in hybrid. Let it bring the car to a full stop, work in reverse, and hold it on a hill. Make it easy to find and easy to keep on.",
       { h: "How this site works" },
