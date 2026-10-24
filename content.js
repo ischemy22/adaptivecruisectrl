@@ -96,6 +96,7 @@ window.ACC_CONTENT = {
     { id: "gadget-garage", label: "Gadget Garage", color: "yellow", about: "Products and gadgets that make the day a little easier." },
     { id: "daily-driver", label: "Daily Driver", color: "gray", about: "Day-to-day stuff from my life behind the wheel." },
     { id: "nerd-corner", label: "Nerd Corner", color: "indigo", about: "Tech deep dives, for the curious." },
+    { id: "joy-ride", label: "Joy Ride", color: "purple", about: "Just my own thoughts and hot takes on a random car topic. No news hook, just a ride." },
   ],
 
   // The "Who's Driving?" page.
@@ -565,6 +566,50 @@ window.ACC_CONTENT = {
         { id: "cc", title: "2026 Lexus ES is the most significant Lexus of the decade", publisher: "Cars.com, Conner Golden", date: "2026-05-27", url: "https://cars.com/articles/hybrid-all-electric-2026-lexus-es-is-the-most-significant-lexus-of-the-decade-review-525144/" },
         { id: "cb", title: "Sales of the Lexus ES eclipsed those of BMW's 3 Series in 2025", publisher: "CarBuzz, Nigel Evans (via AOL)", url: "https://www.aol.com/articles/sales-lexus-es-eclipsed-those-001911236.html" },
         { id: "td", title: "Lexus RZ EV skips one-pedal driving for familiarity's sake", publisher: "The Drive, Peter Nelson", date: "2023-03-13", url: "https://www.thedrive.com/news/2023-lexus-rz-ev-skips-one-pedal-driving-for-familiaritys-sake" },
+      ],
+    },
+    {
+      slug: "case-for-one-pedal",
+      title: "The case for one-pedal driving",
+      date: "2026-10-24",
+      status: "draft",
+      stickers: ["joy-ride", "one-pedal-club"],
+      summary: "Why one-pedal driving belongs in every EV and plug-in hybrid, and why it matters more than carmakers seem to think.",
+      body: [
+        "Original take, no news story to react to. Outline and thoughts go here.",
+      ],
+    },
+    {
+      slug: "case-for-on-screen-vents",
+      title: "The case for air vents you adjust on the screen",
+      date: "2026-10-24",
+      status: "draft",
+      stickers: ["joy-ride"],
+      summary: "Why vents that move from the touchscreen are an accessibility win, not a gimmick.",
+      body: [
+        "Original take, no news story to react to. Outline and thoughts go here.",
+      ],
+    },
+    {
+      slug: "case-for-remappable-buttons",
+      title: "The case for remappable buttons",
+      date: "2026-10-24",
+      status: "draft",
+      stickers: ["joy-ride"],
+      summary: "Let me decide what the button does. A hot take on custom controls.",
+      body: [
+        "Original take, no news story to react to. Outline and thoughts go here.",
+      ],
+    },
+    {
+      slug: "why-not-sexy-buttons",
+      title: "Why not sexy buttons for all cars",
+      date: "2026-10-24",
+      status: "draft",
+      stickers: ["joy-ride"],
+      summary: "If a few cars get great-feeling buttons, why not every car? A hot take.",
+      body: [
+        "Original take, no news story to react to. Outline and thoughts go here.",
       ],
     },
   ],
