@@ -138,6 +138,14 @@ window.ACC_CONTENT = {
       date: "2026-10-27",
       status: "published",
       stickers: ["red-tape", "daily-driver"],
+      photo: {
+        src: "photos/touchscreen-in-car.jpg",
+        alt: "A driver's hand pointing at the controls screen of a Tesla Model S touchscreen",
+        title: "Touchscreen in Car",
+        credit: "Vladimir Srajber", creditUrl: "https://www.pexels.com/@vladimirsrajber/",
+        via: "Pexels", viaUrl: "https://www.pexels.com/photo/touchscreen-in-car-17345648/",
+        license: "Pexels License", licenseUrl: "https://www.pexels.com/license/",
+      },
       reported: { outlet: "J.D. Power", title: "Connectivity Problems Hamper Major Improvements in New Vehicle Quality, J.D. Power Finds", url: "https://www.businesswire.com/news/home/20260625915730/en/Connectivity-Problems-Hamper-Major-Improvements-in-New-Vehicle-Quality-JD-Power-Finds", date: "2026-06-25" },
       bluf: [
   "**What happened:** J.D. Power's 2026 U.S. Initial Quality Study found infotainment was the only problem category that got worse this year, mainly because of Apple CarPlay and Android Auto connection trouble, according to AutoGuide.[^jd][^ag] Among owners who reported a distraction-related problem, 46% pointed to the infotainment system or touchscreen.[^jd]",
