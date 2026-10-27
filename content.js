@@ -133,6 +133,158 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "physical-buttons-vs-screens",
+      title: "A touchy subject: infotainment is the one thing getting worse in new cars",
+      date: "2026-10-27",
+      status: "published",
+      stickers: ["red-tape", "daily-driver"],
+      reported: { outlet: "J.D. Power", title: "Connectivity Problems Hamper Major Improvements in New Vehicle Quality, J.D. Power Finds", url: "https://www.businesswire.com/news/home/20260625915730/en/Connectivity-Problems-Hamper-Major-Improvements-in-New-Vehicle-Quality-JD-Power-Finds", date: "2026-06-25" },
+      bluf: [
+  "**What happened:** J.D. Power's 2026 U.S. Initial Quality Study found infotainment was the only problem category that got worse this year, mainly because of Apple CarPlay and Android Auto connection trouble, according to AutoGuide.[^jd][^ag] Among owners who reported a distraction-related problem, 46% pointed to the infotainment system or touchscreen.[^jd]",
+  "**The rules:** The only federal touchscreen guidance I found is voluntary: NHTSA's 2013 recommendation of no more than two seconds per glance and 12 seconds total.[^nh] A House bill, H.R. 3360, would order a federal study of how driver technology, including touchscreens, affects pedestrian injuries and deaths.[^hr]",
+  "**Hybrid wins:** In a global survey of 8,023 owners, 48% preferred a touchscreen combined with physical buttons or knobs.[^mg]",
+  "**Not covered:** I found no recent U.S. survey that asks drivers to choose between buttons and screens, and none that tests whether saved driver profiles cut distraction. Nothing I read looks at drivers with limited use of one hand."
+],
+      summary: "J.D. Power's 2026 quality study says infotainment is the one category where new-car problems rose, and 46% of owners who reported a distraction problem blamed it. Federal guidance is still voluntary.",
+      body: [
+  {
+    "h": "What J.D. Power found"
+  },
+  "J.D. Power released its 2026 U.S. Initial Quality Study on June 25. It surveyed 78,514 buyers and lessees of 2026 model-year vehicles after 90 days of ownership, with data collected from June 2025 through May 2026.[^jd] Overall problems fell to 175 per 100 vehicles from 192 a year earlier.[^jd]",
+  "Infotainment was the one category where reported problems rose, and AutoGuide says that was mainly Apple CarPlay and Android Auto connection problems.[^ag] Infotainment averaged 44.4 problems per 100 vehicles for mass-market brands and 38.3 for premium brands, and phone-connection problems alone added 1.4.[^jd] Among owners who reported a distraction-related problem, 46% cited the infotainment system or touchscreen and 18% cited driver assistance alerts.[^jd] That is 46% of owners who reported a distraction problem, not 46% of all owners. Frank Hanley, J.D. Power's senior director of auto benchmarking, said: \"As more technology is introduced into vehicles, keeping the experience simple matters more than ever.\"[^jd][^ag]",
+  {
+    "h": "What the rules say"
+  },
+  "NHTSA issued voluntary guidelines in April 2013 asking automakers to keep any single task to no more than two seconds of eyes-off-road time and the total to no more than 12 seconds.[^nh] Motor1 reported that neither NHTSA nor IIHS has a touchscreen safety measure, and that NHTSA's 2022 proposal to add distraction to its New Car Assessment program had not been made official three years later.[^m1] Europe has gone further: Euro NCAP's 2026 protocols reward physical controls for five basic functions, and I found no U.S. rating program with an equivalent.[^en]",
+  "Rep. Kevin Mullin (D-Calif.) introduced the Driver Technology and Pedestrian Safety Act, H.R. 3360, on May 13, 2025. A bill tracker reports that a House Energy and Commerce subcommittee forwarded an amended version to the full committee by voice vote, and lists no cosponsors.[^lb] Mullin's bill page says it would require a Department of Transportation study, with the National Academies, of how driver technology, including touch screens and interface design, affects pedestrian injuries and deaths.[^hr] His February 3, 2026 release describes it as a study of whether touchscreens contribute to crashes, and says he is not proposing that the screens be removed.[^mu]",
+  {
+    "h": "What other research says"
+  },
+  {
+    "list": [
+      "A 2017 University of Utah study for the AAA Foundation had 120 drivers do tasks in 30 new vehicles. Programming navigation took an average of 40 seconds, and 12 of the 30 systems rated \"very high\" demand.[^aa] It is old, and AAA's summary does not compare touchscreens with buttons.[^aa]",
+      "A University of Washington and Toyota Research Institute study presented in 2025 put 16 drivers in a simulator. Driving cut how quickly and accurately they could tap targets on a touchscreen by 58%, and the researchers report that lane drift rose 41.9% when they used the screen. Bigger buttons did not help significantly.[^uw] It did not test physical buttons, and Toyota's research arm co-wrote it.[^uw]",
+      "Mobility Global's 2025 survey of 8,023 owners in eight countries found 48% prefer touchscreens combined with physical buttons or knobs.[^mg] It is not limited to the U.S., and the page gives no U.S.-only figure."
+    ]
+  },
+  {
+    "h": "What isn't known"
+  },
+  {
+    "list": [
+      "Whether H.R. 3360 will get a full committee or House vote, and what the amended version says.[^lb]",
+      "Whether drivers in the U.S. would pick buttons over a screen if asked directly. I found no recent U.S. survey that asks that.",
+      "Whether saved driver profiles reduce the time drivers spend adjusting things. No source I read tests it.",
+      "Whether physical buttons or screens work better for drivers with limited use of one hand. None of the sources I read look at it."
+    ]
+  }
+],
+      take: [
+  "I understand the case for buttons on the things you need in a split second, like wipers, turn signals and hazard lights. But I don't want every setting on a knob. Lukewarm take incoming: if you share a car with someone who sits at a very different height or likes everything set differently, you end up losing your own settings, and fixed buttons can't fix that.",
+  "I'm 6 feet tall (totally not 5'10¾\"), and my wife is barely scratching 5 feet. In cars with physical vents, like my old Volvo EX90 and her BMW iX, she throws the vents in every direction away from her as soon as she gets in to drive, and once she's changed them, I can never get them back to the way I like them or had them before. I'm always hot (A/C in the winter) and she's always cold. My Rivian R1S has no physical vent controls. The vent settings live on the screen, and we set them up once and they save to our profiles. You set your seat, mirrors and the rest once, save them, and recall them any time. There's less friction over which car to take, knowing there's less fiddling to get it right.",
+  "Phone keys that use ultra-wideband (UWB) can make this easier. Rivian added UWB keys for second-generation R1S and R1T models in late 2025, and BMW announced them for the iX in 2021.[^rv][^bm] My R1S is a second-generation, and we both use iPhones, which is the only setup I can speak to. In our cars, the car works out which phone is at the driver's door and loads that person's profile, so you're ready to go.",
+  "It isn't perfect. We run into issues quite a bit, like the car getting confused and loading the wrong user, especially if the passenger walks past the driver door first. The convenience still outweighs the downside for us. When things are that easy, though, we sometimes lose our muscle memory. My relatively tech-savvy wife was in her car this weekend and it loaded my profile for some reason. The car has been mostly bug-free since we got it, so she'd forgotten how to switch profiles, and because she was in a rush, it caused a level of frustration that something like a physical profile button could have solved. For what it's worth, Tesla's manual describes how profiles work: touch Controls, then Profiles, choose the driver, and the car moves to that profile's saved settings, including seat, steering wheel and mirror positions on the models it covers. It also says that if positions don't restore as expected, you may need to run a calibration.[^ts]",
+  "This is also where muscle memory matters for a disabled driver. A physical button becomes muscle memory. A touchscreen doesn't, at least not as quickly. If I need to make a change and can't use my right side to do it on the touchscreen, I have to pull over. If it's absolutely urgent, I put the car in hands-free driver assist so I can make the adjustment. I'm not recommending that because driver assist still needs your attention and any distracted driving is no bueno. Neither is ideal. That's my case for real buttons on anything I might need to change while moving, and for letting the screen handle the set-it-once settings.",
+  "I don't envy the automotive engineers and designers who have to balance physical against digital and decide which functions need to be immediately accessible. I'd argue these things should be intuitive and demand far less attention than they do now. J.D. Power's numbers say infotainment is the one category where new-car problems are rising, though AutoGuide says that was mainly phone connection trouble.[^jd][^ag] To me that argues for screens that work better, not for taking them out. Keep the controls you use without looking as buttons and let the screen remember everything else for each driver.",
+  "Here's my ask. Regulators: Europe's Euro NCAP now rewards physical controls for five basic functions,[^en] and the only federal guidance I found in the U.S. is a 2013 recommendation nobody has to follow.[^nh] I'd like to see more time, effort and money go into real research on how people actually use these systems, including drivers with limited use of one hand, because none of the research I read looks at drivers like me. Then put that research to work and reward the manufacturers who get it right, with ratings and incentives, instead of leaving it to each company's best guess. Carmakers: anything I might need while moving gets a physical control I can find without looking, the screen handles everything I set once, and give me one physical button to say whose profile this is.",
+  "Your turn. If you share a car, what does it forget about you every time? And what's the one control you'd never give up a button for? Email me, and I'll share what I hear, and I'll always ask before sharing your name."
+],
+      sources: [
+  {
+    "id": "jd",
+    "title": "Connectivity Problems Hamper Major Improvements in New Vehicle Quality, J.D. Power Finds",
+    "publisher": "J.D. Power via Business Wire",
+    "url": "https://www.businesswire.com/news/home/20260625915730/en/Connectivity-Problems-Hamper-Major-Improvements-in-New-Vehicle-Quality-JD-Power-Finds",
+    "date": "2026-06-25"
+    },
+  {
+    "id": "hr",
+    "title": "Driver Technology and Pedestrian Safety Act",
+    "publisher": "Rep. Kevin Mullin",
+    "url": "https://kevinmullin.house.gov/about/votes-and-legislation/driver-technology-and-pedestrian-safety-act"
+    },
+  {
+    "id": "mu",
+    "title": "Vehicle touchscreen frustration and safety concerns",
+    "publisher": "Rep. Kevin Mullin",
+    "url": "https://kevinmullin.house.gov/2026/02/03/vehicle-touchscreen-frustration-safety-concerns/",
+    "date": "2026-02-03"
+  },
+  {
+    "id": "nh",
+    "title": "NHTSA issues new distracted driving guidelines",
+    "publisher": "Kelley Blue Book on NHTSA's guidelines",
+    "url": "https://www.kbb.com/car-news/nhtsa-issues-new-distracted-driving-guidelines"
+  },
+  {
+    "id": "aa",
+    "title": "Vehicle infotainment systems create more distractions for drivers",
+    "publisher": "AAA Foundation / University of Utah, via AAA Oregon/Idaho",
+    "url": "https://info.oregon.aaa.com/aaa-vehicle-infotainment-systems-create-more-distractions-for-drivers",
+    "date": "2017-10-05"
+  },
+  {
+    "id": "mg",
+    "title": "What consumers value in human-machine interface technologies",
+    "publisher": "Mobility Global, 2025 HMI Consumer Study",
+    "url": "https://www.mobilityglobal.com/en-us/automotive-insights/blog/what-consumers-value-in-human-machine-interface-technologies"
+    },
+  {
+    "id": "m1",
+    "title": "Buttons Are Back, Baby",
+    "publisher": "Motor1",
+    "url": "https://www.motor1.com/features/758347/buttons-back-in-cars-touchscreens/"
+    },
+  {
+    "id": "ts",
+    "title": "Driver Profiles",
+    "publisher": "Tesla Model 3 owner's manual",
+    "url": "https://www.tesla.com/ownersmanual/2017_2023_model3/en_us/GUID-A2D0403E-3DAC-4695-A4E6-DC875F4DEDC3.html"
+  },
+  {
+    "id": "en",
+    "title": "Buttons are back for basic functions, Euro NCAP confirms in testing",
+    "publisher": "Euro NCAP",
+    "url": "https://www.euroncap.com/en/press-media/buttons-are-back-for-basic-functions-euro-ncap-confirms-in-testing/",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "uw",
+    "title": "Touchscreens in Motion: Quantifying the Impact of Cognitive Load on Distracted Drivers",
+    "publisher": "Shen, Wobbrock et al., University of Washington and Toyota Research Institute, UIST",
+    "url": "https://faculty.washington.edu/wobbrock/pubs/uist-25.02.pdf"
+    },
+  {
+    "id": "ag",
+    "title": "New Car Quality Sees Major Gains in 2026, But Infotainment Still Lags",
+    "publisher": "AutoGuide",
+    "url": "https://www.autoguide.com/auto/auto-news/new-car-quality-sees-major-gains-in-2026-but-infotainment-still-lags-44634571",
+    "date": "2026-06-25"
+  },
+  {
+    "id": "lb",
+    "title": "H.R. 3360, 119th Congress",
+    "publisher": "The Lobby News bill tracker",
+    "url": "https://thelobbynews.com/congress/bills/119/house-bill/3360"
+    },
+  {
+    "id": "rv",
+    "title": "Rivian finally adds full Apple Wallet Digital Key support with new OTA update",
+    "publisher": "Digital Trends",
+    "url": "https://www.digitaltrends.com/cars/rivian-finally-adds-full-apple-wallet-digital-key-support-with-new-ota-update/",
+    "date": "2025-12-06"
+  },
+  {
+    "id": "bm",
+    "title": "BMW announces BMW Digital Key Plus with Ultra-Wideband technology coming to the BMW iX",
+    "publisher": "BMW Group press release",
+    "url": "https://www.press.bmwgroup.com/south-africa/article/detail/T0324168EN/bmw-announces-bmw-digital-key-plus-with-ultra-wideband-technology-coming-to-the-bmw-ix",
+    "date": "2021-01-13"
+  }
+],
+    },
+
+    {
       slug: "id-buzz-one-pedal-driving",
       title: "ID. Buzz returns in 2027 as a 2028 model, and one-pedal driving is reportedly coming",
       date: "2026-10-21",
