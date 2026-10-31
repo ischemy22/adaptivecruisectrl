@@ -137,7 +137,7 @@ window.ACC_CONTENT = {
       title: "VA Study: About One in Five Stroke Survivors Failed a Driving Simulator",
       date: "2026-10-31",
       status: "published",
-      stickers: ["nerd-corner", "one-pedal-club"],
+      stickers: ["daily-driver", "one-pedal-club"],
       photo: {
         src: "photos/stock-simulator-driver.jpg",
         alt: "Stock photo of a person seen from behind, wearing a cap, with both hands on the steering wheel of a racing simulator in front of a wide screen showing a track. Illustration only.",
