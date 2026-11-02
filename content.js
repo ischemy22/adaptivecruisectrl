@@ -137,7 +137,7 @@ window.ACC_CONTENT = {
       title: "The iPhone Duo is a comfort question for reviewers and an access question for one-handed users",
       date: "2026-11-02",
       status: "published",
-      stickers: ["gadget-garage", "daily-driver"],
+      stickers: ["gadget-garage", "nerd-corner"],
       photo: {
         src: "photos/iphone-duo-apple.jpg",
         alt: "Apple promotional image of three iPhone Duo views: the back with dual cameras and a yellow calendar on the outer screen, the open inner screen showing a 9:41 lock screen over desert dunes, and a side view with a camera screen.",
