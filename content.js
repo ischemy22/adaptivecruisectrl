@@ -133,6 +133,120 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "iphone-duo-comfort-vs-access",
+      title: "The iPhone Duo is a comfort question for reviewers and an access question for one-handed users",
+      date: "2026-11-02",
+      status: "published",
+      stickers: ["gadget-garage", "daily-driver"],
+      photo: {
+        src: "photos/iphone-duo-apple.jpg",
+        alt: "Apple promotional image of three iPhone Duo views: the back with dual cameras and a yellow calendar on the outer screen, the open inner screen showing a 9:41 lock screen over desert dunes, and a side view with a camera screen.",
+        caption: "Apple promotional image of the iPhone Duo.",
+        credit: "Apple", via: "press image", viaUrl: "https://apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      },
+      reported: {
+        outlet: "9to5Mac",
+        title: "iPhone Duo review: The future is foldable",
+        url: "https://9to5mac.com/2026/10/21/iphone-duo-review/",
+        date: "2026-10-21",
+      },
+      bluf: [
+        "**What happened:** Apple's first foldable iPhone, the iPhone Duo, went on sale October 23 starting at $1,999. Reviewers have since said it is easier to use with the right hand than the left.[^ap][^nt][^df]",
+        "**What reviewers say:** 9to5Mac says \"for a right-handed person, the iPhone Duo is a delight to use one-handed,\" and that left-handed use is \"definitely not as comfortable.\" Daring Fireball's John Gruber says \"the Duo is not comfortable left-handed\" and calls it a two-handed device even when folded.[^nt][^df]",
+        "**What Apple says:** \"Closed, iPhone Duo is comfortable to use one-handed and fits easily in a pocket.\" Its announcement doesn't mention left-handed use or a mirrored layout.[^ap]",
+        "**Why it matters:** The reviews I read treat this as a question of comfort in a non-preferred hand. None of them discusses people who can only use one hand.[^nt][^df][^cq][^gt]"
+      ],
+      summary:
+        "The iPhone Duo is a comfort question for reviewers and an access question for one-handed users. For some of us it's a bigger problem than comfort.",
+      body: [
+        {
+          "h": "What Apple built"
+        },
+        "Apple announced the iPhone Duo on September 9, 2026, with availability starting October 23. It starts at $1,999 for 256GB.[^ap] It has a 7.6-inch inner display and a 5.4-inch outer display. Touch ID is built into the side button and works open or closed, and users can also unlock with an Apple Watch. There is also a Camera Control button.[^ap] It has no Face ID. 9to5Mac calls Touch ID in its place \"perhaps the biggest trade-off,\" says the switch has been \"the hardest thing to get used to,\" and adds that turning on Apple Watch unlock \"does make the experience significantly better.\"[^nt] 9to5Mac measures it at 117.8mm tall, 84.1mm wide and 11.3mm thick when folded, weighing 254 grams, with no Action button.[^nt] Consequence reports that with the phone closed, the Touch ID sensor and Camera Control sit on the right edge.[^cq] Gotechtor says the hinge is on the left edge when closed.[^gt] Apple's announcement doesn't say where Camera Control sits.[^ap]",
+        {
+          "h": "What reviewers found"
+        },
+        "9to5Mac's Chance Miller wrote, \"For a right-handed person, the iPhone Duo is a delight to use one-handed,\" and about the left hand, \"It's definitely not as comfortable as using it with my right hand.\" He also notes that left-handed users have raised concerns about right-aligned software controls, which can make the top-right corner hard to reach for something like pulling down Control Center.[^nt] Gruber writes that he is right-handed but often uses his iPhone left-handed, and concludes, \"The Duo is not comfortable left-handed.\" He says the Touch ID button wasn't the main problem, since he enrolled left-hand fingers, and points instead to the frame's sharp bottom-left corner: \"In your left, it's a crisp sharp corner, and it doesn't feel good.\"[^df] He also writes that it is \"so wide that it's a two-handed device even when being used folded,\" and that opening it takes two hands and a fingernail in the gap, more like prying than flipping.[^df]",
+        {
+          "h": "What the earlier coverage said"
+        },
+        "Before the phone shipped, Consequence relayed comments from a MacRumors writer, who said that even a display-flip option wouldn't fix the Touch ID ergonomics, and from a forum user who called the inner screen's layout \"heavily right handed.\" Its piece frames the issue mainly as ergonomics.[^cq] Gotechtor, on September 28, reports that Apple offers no mode that reverses the physical layout, and that left-handed users have to stretch their thumb farther to reach the controls.[^gt]",
+        {
+          "h": "What Apple said"
+        },
+        "I found no Apple statement about left-handed or one-handed use. The announcement says the Lock Screen controls, Dock and app navigation \"now appear on the side,\" and that content \"reorients when turned to the side.\"[^ap]",
+        {
+          "h": "What isn't known"
+        },
+        {
+          "list": [
+            "Whether any iOS setting, such as AssistiveTouch, Reachability or Back Tap, helps with the reach and opening problems. Apple's announcement doesn't mention them.[^ap]",
+            "Whether Apple plans a mirrored layout or any change for left-handed or one-handed users. Whether Face ID comes to a later model is also open. VietNamNet reports that Bloomberg's Mark Gurman said on his podcast that Apple is testing an under-display Face ID for a second-generation Duo, with no final decision made.[^fi]",
+            "Whether the problems reviewers describe are the same ones someone who can only use one hand would run into."
+          ]
+        }
+      ],
+      take: [
+        "Reviewers are asking a fair question: is the iPhone Duo comfortable in your other hand? Gruber says no. 9to5Mac says not as comfortable.[^df][^nt] Both are starting from a hand they can choose, where the left is the second pick. On Saturday, during trick or treat, I tried a family member's iPhone Duo. I literally would not be able to use it, and I stopped when I realized the drop risk was too much. The dock sat on the right side of the screen, too far for me to reach, and it wasn't clear or intuitive whether there was a Reachability option or any way to move the dock to the left. Neither the owner of the phone nor the reviews I've seen and watched mention a way to switch it. I did eventually get the phone open with enough practice, but only by laying it down somewhere I was sure I wouldn't drop it. I also didn't have the dexterity to use the keyboard with both hands, even though I know the keyboard can split to make each half easier to reach. For someone using one hand because they have to, the left hand isn't the second choice. Short of a smaller phone or a different aspect ratio, which would defeat the point of a big unfolding screen, I don't see a way to use it the way it's built. That's disappointing, and I imagine plenty of people are in the same spot.",
+        "You might ask why I wouldn't just stick with a regular iPhone. I've always wanted a foldable. It would give me a smaller, more hand-friendly phone to carry and a bigger screen when I need the room, and I think that's exactly why everyone would want a foldable iPhone. So I'm not looking for a reason to dislike this one. I want it to work. Face ID is a must before people like me could easily consider it. Unlocking with my face means one less thing to aim at with a hand that's accurate to within the nearest \"oops.\" The Duo has Touch ID instead, in a side button that sits on the right edge when it's folded,[^cq] and 9to5Mac's reviewer found that switch the hardest thing to get used to.[^nt] It seems Touch ID can be reachable with the left hand if your hand is large enough, and Gruber says it wasn't his main problem once he enrolled left-hand fingers,[^df] but that leaves out anyone with a smaller hand or less reach. Apple Watch unlock helps if you own and wear one.[^nt] Bloomberg's Mark Gurman has reportedly said Apple is testing Face ID for the second-generation Duo, but nothing is decided.[^fi]",
+        "Here's how I think we got here. A foldable asks for a lot of two-handed moves. Gruber says opening it takes two hands and a fingernail, and that it's two-handed even folded.[^df] Apple calls the closed phone \"comfortable to use one-handed.\"[^ap] Both can be true for a reviewer who picks a hand and has two working ones. Consequence even cites a handedness statistic, which is a number about preference, not about people who can't use a hand.[^cq] I don't think anyone did this on purpose. The people testing it were answering a different question than mine.",
+        "Reviewers say it's well built and a delight in the right hand,[^df][^nt] which is why I'd rather see it improved than written off. The software side is something Apple is already good at. Its announcement says content reorients as the phone moves and controls shift to the side.[^ap] So here's what I'd ask. First, make it easy to find. If a left-side dock or a one-handed mode exists, name it and explain it during setup, and if it doesn't, add one. Second, if Face ID is coming, make it a priority, and if it isn't, tell us what the hands-free unlock plan is. Third, put people who have no choice but to use one hand into the design testing for the next model, before the hinge and buttons are locked, and test opening, closing and unlocking, not just holding. Fourth, make trying it first work for us. Apple's stores reportedly have a lot of demo units out for launch,[^dm] and I'm glad, but a unit on a display in a busy store doesn't tell me what I need to know: can I open it, hold it and type on it without risking a $1,999 phone? Offer a hands-on session by request, with a seat, a table and a staff member who isn't rushing. For people who can't get to a store, state assistive technology programs already lend devices to try, and if Apple put demo units in them, a disabled buyer could find out for free, and Apple would hear about it before the reviews do."
+      ],
+      sources: [
+        {
+          "id": "ap",
+          "title": "Apple unveils iPhone Duo",
+          "publisher": "Apple Newsroom",
+          "date": "2026-09-09",
+          "url": "https://apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+        },
+        {
+          "id": "nt",
+          "title": "iPhone Duo review: The future is foldable",
+          "publisher": "9to5Mac, Chance Miller",
+          "date": "2026-10-21",
+          "url": "https://9to5mac.com/2026/10/21/iphone-duo-review/"
+        },
+        {
+          "id": "df",
+          "title": "The iPhone Duo",
+          "publisher": "Daring Fireball, John Gruber",
+          "date": "2026-10-21",
+          "url": "https://daringfireball.net/2026/10/the_iphone_duo"
+        },
+        {
+          "id": "cq",
+          "title": "Apple iPhone Duo: Why Foldable Design May Pose Left-Handed Issues",
+          "publisher": "Consequence",
+          "date": "2026-09-10",
+          "url": "https://consequence.net/2026/09/iphone-duo-design-left-handed-accessibility-issues/"
+        },
+        {
+          "id": "gt",
+          "title": "Apple's $1,999 Foldable iPhone Has a Problem You'd Never Think About Unless You're Left-Handed, and There's No Setting to Fix It",
+          "publisher": "Gotechtor, Herby Jasmin",
+          "date": "2026-09-28",
+          "url": "https://www.gotechtor.com/iphone-duo-left-handed-use-controls-ergonomics/"
+        },
+        {
+          "id": "dm",
+          "title": "Apple planning huge iPhone Duo demo experiences at select retail stores",
+          "publisher": "9to5Mac, Michael Burkhardt",
+          "date": "2026-10-11",
+          "url": "https://9to5mac.com/2026/10/11/apple-planning-huge-iphone-duo-demo-experiences-at-select-retail-stores-report/",
+          "note": "Pre-launch report citing Bloomberg's Mark Gurman."
+        },
+        {
+          "id": "fi",
+          "title": "Apple tests Face ID for iPhone Duo 2 after criticism of $2,000 foldable",
+          "publisher": "VietNamNet Global",
+          "date": "2026-10-26",
+          "url": "https://vietnamnet.vn/en/apple-tests-face-id-for-iphone-duo-2-after-criticism-of-2-000-foldable-2567820.html",
+          "note": "Unconfirmed report citing Bloomberg's Mark Gurman on his Power On podcast."
+        }
+      ],
+    },
+    {
       slug: "va-study-stroke-driving-simulator",
       title: "VA Study: About One in Five Stroke Survivors Failed a Driving Simulator",
       date: "2026-10-31",
