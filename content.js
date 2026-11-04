@@ -133,6 +133,114 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "waymo-las-vegas-wheelchair-petition",
+      title: "Can a power wheelchair get a Waymo in Las Vegas?",
+      date: "2026-11-05",
+      status: "published",
+      stickers: ["robot-chauffeurs", "red-tape"],
+      photo: {
+        src: "photos/waymo-las-vegas.jpg",
+        alt: "Waymo promotional graphic reading \"Now serving Las Vegas\" over the Las Vegas skyline at dusk, with a phone showing the Waymo app, two people walking beside a light blue Waymo van, and a white Waymo SUV.",
+        caption: "Source: Waymo.",
+        credit: "Waymo", via: "Waymo blog", viaUrl: "https://waymo.com/blog/2026/09/ride-in-las-vegas/",
+      },
+      reported: {
+        outlet: "Streetsblog USA",
+        title: "Waymo's Nevada Rollout Violates Accessibility Law, Disability Activist Claims",
+        url: "https://usa.streetsblog.org/2026/09/10/waymos-nevada-rollout-violates-accessibility-law-disability-activist-claims",
+        date: "2026-09-10",
+      },
+      bluf: [
+        "**What happened:** Kelsey Maurine Brickl, an advocate who uses a power wheelchair, asked Nevada regulators on August 26 to stop Waymo's Las Vegas rollout until it explains how wheelchair users will be served.[^sb][^nc]",
+        "**What Waymo said:** \"We will comply with applicable Nevada accessibility requirements.\" It did not answer questions about its plan.[^sb][^nc] Its help page tells Las Vegas riders to call three local cab companies for a wheelchair-accessible vehicle.[^wh]",
+        "**What the state said:** The Nevada Transportation Authority told Streetsblog it doesn't have to respond to petitions after a decision. It told Nevada Current that outside challenges go through a judicial petition.[^sb][^nc]",
+        "**Why it matters:** Waymo told a D.C. Council committee in July it hasn't found a fully wheelchair-accessible electric platform it can retrofit. Brickl was quoted $373 each way for an accessible ride, or $254 one way from a company with a 300 lb limit. Her chair weighs 388 lbs.[^nc]"
+      ],
+      summary:
+        "A wheelchair user asked Nevada to pause Waymo's Las Vegas rollout over wheelchair access. Waymo says it will follow state rules and didn't answer questions about its plan.",
+      body: [
+        {
+          "h": "What was asked"
+        },
+        "Kelsey Maurine Brickl, a disability rights advocate who uses a power wheelchair, asked Nevada regulators to pause Waymo's Las Vegas rollout until the company explains how wheelchair users will be served.[^sb][^nc] The Nevada Transportation Authority (NTA) had approved Waymo in August to run up to 1,000 fully autonomous vehicles for one year.[^nc] Brickl filed her petition on August 26.[^sb] Brickl told Streetsblog, \"If the rollout of Waymo is going to take those existing civil rights away, then it needs to be halted.\" She also said, \"Disabled people already have civil rights, we just need them enforced.\"[^sb]",
+        {
+          "h": "The law"
+        },
+        "Nevada Current quotes the statute, NRS 706B.180. A company that cannot provide an accessible vehicle \"must direct the passenger to an alternative provider or means of transportation that is wheelchair accessible, if available.\"[^nc] Streetsblog describes the rule more broadly, as a requirement to provide wheelchair-accessible vehicles on request, which most companies meet by contracting with human-driven taxi firms such as Uber and Lyft. Streetsblog reports Waymo had no such contract in Nevada as of its September 10 story.[^sb]",
+        {
+          "h": "What Waymo and the NTA said"
+        },
+        "Waymo spokesperson Ethan Teicher said, \"We will comply with applicable Nevada accessibility requirements.\"[^sb] Waymo also said it is \"actively assessing\" how to offer more accessible service in Las Vegas, and did not directly answer questions about its plan.[^nc] Waymo's help page lists three local providers, Nellis Cab, Deluxe Cab and Western Cab Company, for riders to call to request a wheelchair-accessible vehicle in Las Vegas.[^wh] The page does not say whether Waymo has an agreement with them, and it carries no date. Per Nevada Current, Waymo told a D.C. Council committee in July that it has not found an electric vehicle platform that is fully wheelchair-accessible and can be retrofitted with its technology.[^nc]",
+        "The NTA told Streetsblog it is not required to respond to petitions after a decision. Streetsblog notes state law allows petitions within 15 days and says the NTA did not explain its position.[^sb] An NTA spokesperson told Nevada Current that a non-party must go through a judicial petition, and that accessibility is a compliance item to be handled before the final permit.[^nc] Brickl says she cannot realistically pursue emergency litigation given her disabilities.[^nc]",
+        {
+          "h": "Other operators and costs"
+        },
+        "Tesla and Uber's Aviari were also permitted in Nevada. Streetsblog says it is unclear whether either offers wheelchair-accessible rides. Tesla has said it is developing a wheelchair-accessible vehicle, with no specifics or timeline.[^sb][^nc] Brickl was quoted $373 each way by one private company for an accessible ride, and $254 one way by another that carries chairs only up to 300 lbs. Her chair weighs 388 lbs.[^nc]",
+        "For more of Brickl's own words and a fuller list of her complaints, see Nevada Current's report: As Waymo expands fleet, some wheelchair users will be left at curb, says advocate",
+        {
+          "h": "What isn't known"
+        },
+        {
+          "list": [
+            "What Waymo's accessibility plan is beyond the cab referrals on its help page.",
+            "Whether Waymo has an agreement with those companies, and when its help page listed them.",
+            "Whether any Las Vegas service, including the three cab companies on Waymo's help page, can carry a complex power wheelchair.",
+            "What the NTA's compliance item requires, and when.",
+            "Whether the NTA will reconsider the approval.",
+            "Whether Aviari or Tesla will serve power wheelchair users, and when."
+          ]
+        }
+      ],
+      take: [
+        "I hadn't considered how hard this is for people who use power wheelchairs. Brickl's chair weighs 388 lbs. One company quoted her $373 each way for a ride that could carry it, and another quoted $254 but caps chairs at 300 lbs.[^nc] Streetsblog reports that EV floor batteries get in the way of loading ramps, which affects several brands.[^sb] Waymo told a D.C. Council committee in July that it hasn't found an electric platform that is fully wheelchair-accessible and can take its technology.[^nc] All in, a wheelchair user doesn't have the usual pool of rides to pick from. Waymo's help page does point Las Vegas riders to three local cab companies,[^wh] but I haven't seen anyone say whether those can carry a chair like hers.",
+        "Back in 2022 a Waymo product manager told New Mobility, \"We are a technology company focused on building a driver, not a vehicle. We work with [manufacturers] to bring our technology to their vehicle platform.\"[^nm] The New Mobility writer read that as Waymo leaving accessible vehicles to the manufacturers.[^nm] I think that's too reductive. Read in the most generous, literal way, sure, they aren't a car company. But a driver with no vehicle to ride in doesn't do much for Brickl. Google's self-driving project started in 2009, Waymo became its own company in 2016,[^wa] and Autnmy AI's June robotaxi index ranked it first.[^ax] A company with that much pull could use some of it to push its partners toward vehicles more people can ride in. Las Vegas looks to me like a race to be first, since the NTA approved Tesla and Aviari too, and right now disabled riders are the ones waiting on the vehicles to catch up.[^nc][^sb]",
+        "Brickl says Waymo's approach endangers \"existing access\" for people with Group 3 power wheelchairs and threatens an already \"very fragile\" accessible transportation system.[^nc] With prices and weight limits like the ones she was quoted, that worry looks earned to me. It also lines up with my earlier story on Tesla's wheelchair-accessible robotaxi, where Tesla said it's building one and gave no date and frankly, no other real details. Nevada is the same question one step later: permits are out, and it's unclear whether Tesla or Aviari will offer a ride a power-chair user can book.[^sb] I'll be watching to see who shows up first with a vehicle that fits a power chair."
+      ],
+      sources: [
+        {
+          "id": "sb",
+          "title": "Waymo's Nevada Rollout Violates Accessibility Law, Disability Activist Claims",
+          "publisher": "Streetsblog USA, Ren Zaro Fitzgerald",
+          "date": "2026-09-10",
+          "url": "https://usa.streetsblog.org/2026/09/10/waymos-nevada-rollout-violates-accessibility-law-disability-activist-claims"
+        },
+        {
+          "id": "nc",
+          "title": "As Waymo expands fleet, some wheelchair users will be left at curb, says advocate",
+          "publisher": "Nevada Current, April Corbin Girnus",
+          "date": "2026-09-01",
+          "url": "https://nevadacurrent.com/2026/09/01/as-waymo-expands-fleet-some-wheelchair-users-will-be-left-at-curb-says-advocate/"
+        },
+        {
+          "id": "nm",
+          "title": "Six Things Wheelchair Users Should Know About Autonomous Vehicles",
+          "publisher": "New Mobility, Jenny Smith",
+          "date": "2022-07-14",
+          "url": "https://newmobility.com/six-things-wheelchair-users-should-know-about-autonomous-vehicles/"
+        },
+        {
+          "id": "ax",
+          "title": "Robotaxi rankings show Waymo lead, China's rise",
+          "publisher": "Axios, Joann Muller",
+          "date": "2026-06-17",
+          "url": "https://www.axios.com/2026/06/17/robotaxi-rankings-waymo-china"
+        },
+        {
+          "id": "wa",
+          "title": "About Waymo",
+          "publisher": "Waymo",
+          "url": "https://waymo.com/about/"
+        },
+        {
+          "id": "wh",
+          "title": "Wheelchair-accessible vehicles (Las Vegas section, undated)",
+          "publisher": "Waymo",
+          "url": "https://support.google.com/waymo/answer/10656347?hl=en",
+          "note": "Las Vegas section. The page carries no date."
+        }
+      ],
+    },
+    {
       slug: "iphone-duo-comfort-vs-access",
       title: "The iPhone Duo is a comfort question for reviewers and an access question for one-handed users",
       date: "2026-11-02",
