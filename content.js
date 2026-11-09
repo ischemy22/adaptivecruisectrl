@@ -133,6 +133,53 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "aapd-autonomous-vehicle-summit",
+      title: "Disability group holds its first autonomous vehicle summit",
+      date: "2026-11-09",
+      status: "published",
+      stickers: ["robot-chauffeurs", "red-tape"],
+      bluf: [
+        "**What happened:** AAPD, with its We Will Ride initiative, held its first Autonomous Vehicle Summit, per a press release dated November 5.[^aa]",
+        "**Who:** Disability rights advocates, accessible technology experts, AV companies, government officials and tech industry leaders. The release names no companies or officials.[^aa]",
+        "**On the agenda:** Safety, local and state policy, SecureRide and innovation, community engagement, and staffing for accessibility.[^aa]",
+        "**Not covered:** The release lists no policy asks or standards, and it doesn't name a venue.[^aa]"
+      ],
+      summary:
+        "The American Association of People with Disabilities held its first summit on autonomous vehicles, with advocates, AV companies and government officials. The release lists topics, not demands.",
+      body: [
+        {
+          "h": "What AAPD announced"
+        },
+        "On November 5, the American Association of People with Disabilities (AAPD) put out a release about its first Autonomous Vehicle Summit, run with its We Will Ride initiative. The release is datelined Washington, D.C. and doesn't name a venue.[^aa]",
+        "The program is a mix of panels and workshops on the history of AVs and where things stand now, resources for improving accessibility, and what a fully accessible AV industry would require. Breakout discussions cover safety, local and state policy, SecureRide and innovation, community engagement, and staffing and workforce development for accessibility. The release doesn't say what SecureRide is.[^aa]",
+        {
+          "h": "What AAPD said"
+        },
+        "Maria Town, AAPD's president and CEO, said, \"Accessible transportation is at the heart of community living,\" and that AVs could increase independence for disabled people. She also said growing AV use \"poses safety challenges specific to disabled users that must be addressed collaboratively.\"[^aa]",
+        "Maitreya Shah, AAPD's director of technology policy, said, \"Disabled users will not be left behind,\" and described the summit as a way to make disabled people's lived experiences part of industry priorities.[^aa]",
+        {
+          "h": "What isn't known"
+        },
+        {
+          "list": [
+            "Which AV companies and government officials took part.",
+            "Whether the summit produced a list of asks or commitments.",
+            "What SecureRide refers to."
+          ]
+        }
+      ],
+      sources: [
+        {
+          "id": "aa",
+          "title": "AAPD Hosts 2026 Autonomous Vehicle Summit",
+          "publisher": "AAPD (press release)",
+          "date": "2026-11-05",
+          "url": "https://www.aapd.com/aapd-hosts-2026-autonomous-vehicle-summit/",
+          "note": "Primary source: the organization's own release."
+        }
+      ],
+    },
+    {
       slug: "waymo-las-vegas-wheelchair-petition",
       title: "Can a power wheelchair get a Waymo in Las Vegas?",
       date: "2026-11-05",
