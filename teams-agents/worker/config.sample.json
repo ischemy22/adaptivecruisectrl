@@ -1,0 +1,9 @@
+{
+  "QueueRoot": "C:\\Users\\YOUR-NAME\\YOUR-FIRM\\Team Automation - Queue",
+  "ArchiveRoot": "\\\\YOUR-SERVER\\MediaArchive",
+  "ZipRoot": "\\\\YOUR-SERVER\\MediaArchive",
+  "TarExe": "C:\\Windows\\System32\\tar.exe",
+  "DateFormat": "yyyyMMdd",
+  "PollSeconds": 10,
+  "IntappServiceUrl": "https://YOUR-INTAPP-SERVER/PATH/APIService.svc"
+}
