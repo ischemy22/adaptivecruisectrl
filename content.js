@@ -133,6 +133,57 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "dc-robotaxi-bill-wheelchair-accessible-vehicles",
+      title: "DC's rewritten robotaxi bill sets dates for wheelchair-accessible vehicles",
+      date: "2026-11-12",
+      status: "published",
+      stickers: ["robot-chauffeurs", "red-tape"],
+      reported: {
+        outlet: "Hill Rag",
+        title: "Allen Makes the Case for Driverless Cars on District Terms",
+        url: "https://www.hillrag.com/2026/11/10/allen-makes-the-case-for-driverless-cars-on-district-terms/",
+        date: "2026-11-10",
+      },
+      bluf: [
+        "**What happened:** On November 10, DC Councilmember Charles Allen released a rewritten robotaxi bill that adds wheelchair-accessible vehicle requirements.[^hr][^cc]",
+        "**What it requires:** Operators would start adding wheelchair-accessible autonomous vehicles by January 1, 2032, or 18 months after one enters commercial service elsewhere in the U.S., whichever comes first. At least 20 percent of each fleet would need to be accessible by 2034.[^hr]",
+        "**The money:** A share of the fund's revenue would go to accessibility, 25 percent for the first three years and half after that.[^hr]",
+        "**Where it stands:** As of November 10, three of the five committee members had signaled opposition and no vote was set. The bill lapses if it isn't passed by the Council's December 15 meeting.[^hr]"
+      ],
+      summary:
+        "A rewritten DC robotaxi bill would require wheelchair-accessible autonomous vehicles on a timetable, up from a first version whose only disability provision was an app. It may not get the committee votes.",
+      body: [
+        { h: "What changed" },
+        "The first version of the bill, B26-0684, never used the word \"wheelchair.\" The Weekly Driver reported in July that its only disability provision was an app-based way to request rides.[^wk]",
+        "The rewrite, released November 10, adds a timetable. The Department of For-Hire Vehicles would set service standards for wheelchair-accessible rides. Operators would have to start adding accessible vehicles by January 1, 2032, or within 18 months of the District being notified that an accessible autonomous vehicle has entered commercial service elsewhere in the U.S., whichever comes first. By 2034, at least 20 percent of each operator's fleet would need to be wheelchair-accessible.[^hr][^wj] Per Hill Rag, 25 percent of the fund's revenue would support accessibility in the first three years, and half after that.[^hr]",
+        "Allen said the revisions reflect three hearings and years of work.[^hr] City Cast DC reports the rewrite was meant to address union, accessibility and fee concerns.[^cc]",
+        { h: "Where it stands" },
+        "Allen chairs the transportation committee and needs three votes there. Hill Rag reports three of the five members had indicated opposition as of November 10, and no vote date was set.[^hr] City Cast names Councilmembers Zachary Parker and Elissa Silverman as opposed, plus Mayor-elect Janeese Lewis George, who isn't on the committee and wants to wait until next year. Parker cited public safety, including emergency vehicles. Lewis George cited job losses.[^cc]",
+        "If the committee approves it, the bill still needs a Committee of the Whole vote and two Council votes, then the mayor and congressional review. The Council's last legislative meeting this period is December 15, and the bill lapses if it hasn't passed by then.[^hr]",
+        { h: "What isn't known" },
+        {
+          list: [
+            "Whether the committee votes this month, and how.",
+            "Whether any operator has a wheelchair-accessible driverless vehicle that could meet the standard. Waymo told the council in July it hadn't found a fully wheelchair-accessible platform.[^wk]",
+            "How a rider in a wheelchair would be secured with no human aboard. The bill summaries I read don't say.",
+            "I haven't read the bill text itself. The dates and percentages come from Hill Rag and WJLA, which match."
+          ],
+        },
+      ],
+      take: [
+        "This is the third robotaxi story I've posted in a few weeks. The others were Tesla's wheelchair-accessible robotaxi and Waymo in Las Vegas, and DC keeps coming back in all of them. I'll take that as a sign that there is a positive, forward-moving conversation around this topic.",
+        "The first version of Allen's bill had one disability provision, an app for requesting rides.[^wk] The rewrite sets a start date for wheelchair-accessible vehicles, requires 20 percent of each fleet to be accessible by 2034, and sets aside a share of the fund's revenue for accessibility.[^hr] That is a big step up in scope. It went from one line about an app to a plan with dates and percentages and money attached. Allen says the changes reflect three hearings,[^hr] which fits with how much changed between versions. Even if this doesn't solve everything, and the 2032 date is going to get argued about, each version shows somebody putting real thought into what the last one missed. A number on paper is a lot easier to hold someone to than a sentence about an app.",
+        "What I like most is the timing. Pickup spots, curb rules and who pays for what are still being decided, in DC, in Toronto, in Las Vegas. Putting accessibility in now should be cheaper than bolting it on later, and \"later\" has not historically been anyone's favorite word. I'd love to see more cities and states do the same thing while the technology is this early.",
+        "The deadline is tied to an accessible driverless vehicle showing up somewhere else in the U.S. first,[^hr] and Waymo told the council it hasn't found a platform that works.[^wk] And the bill might not pass this year. Three of the five committee members have signaled opposition, and the reasons I've seen are jobs and emergency vehicles, not accessibility.[^hr][^cc] So the accessibility language could get stuck in a fight about something else."
+      ],
+      sources: [
+        { id: "hr", title: "Allen Makes the Case for Driverless Cars on District Terms", publisher: "Hill Rag, Elizabeth O'Gorek", date: "2026-11-10", url: "https://www.hillrag.com/2026/11/10/allen-makes-the-case-for-driverless-cars-on-district-terms/" },
+        { id: "cc", title: "Waymo Bill May Not Make It Down The Road", publisher: "City Cast DC", date: "2026-11-10", url: "https://dc.citycast.fm/dc-politics/waymo-av-bill-opposition" },
+        { id: "wj", title: "Charles Allen releases revised bill to regulate driverless rides in DC", publisher: "WJLA, Alan Henney", date: "2026-11-10", url: "https://wjla.com/news/local/washington-dc-council-charles-allen-autonomous-vehicles-driverless-rideshare-robotaxi-fleet-cap-mileage-tax-labor-rights-collective-bargaining-wheelchair-accessibility-crash-reporting-public-transit-robotaxis-waymo", note: "Confirms the dates and percentage that Hill Rag also reports." },
+        { id: "wk", title: "DC's Robotaxi Bill Never Says the Word \"Wheelchair\"", publisher: "The Weekly Driver, Michael Kahn", date: "2026-07-17", url: "https://theweeklydriver.com/2026/07/robotaxi-wheelchair-accessibility-dc-bill/" }
+      ],
+    },
+    {
       slug: "aapd-autonomous-vehicle-summit",
       title: "Disability group holds its first autonomous vehicle summit",
       date: "2026-11-09",
