@@ -133,6 +133,61 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "honda-acura-power-steering-recall",
+      title: "Honda and Acura recall 635,808 vehicles because power steering assist can shut off",
+      date: "2026-11-16",
+      status: "published",
+      stickers: ["daily-driver", "red-tape"],
+      photo: {
+        src: "photos/honda-pilot-2025.jpg",
+        alt: "A white 2025 Honda Pilot parked on a rocky trail with mountains and evergreen trees behind it at sunset",
+        caption: "2025 Honda Pilot. The 2023 to 2025 Pilot is part of the recall.",
+        credit: "American Honda Motor Co.", creditUrl: "https://hondanews.com/en-US/honda-automobiles/releases/rugged-2025-honda-pilot-adds-black-edition-with-more-aggressive-look-and-upscale-cabin",
+        via: "HondaNews", viaUrl: "https://hondanews.com/en-US/honda-automobiles/releases/rugged-2025-honda-pilot-adds-black-edition-with-more-aggressive-look-and-upscale-cabin",
+      },
+      reported: {
+        outlet: "NHTSA",
+        title: "Part 573 Safety Recall Report 26V721 (Honda)",
+        url: "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V721-7592.pdf",
+        date: "2026-10-29",
+      },
+      bluf: [
+        "**What happened:** Honda is recalling 635,808 vehicles in the U.S. because a software problem can make the electric power steering shut off its assist while driving.[^nh][^ae]",
+        "**Which cars:** 2023 to 2025 Honda Pilot (383,110), 2022 to 2024 Acura MDX (177,100) and 2021 to 2025 Acura TLX (75,598).[^nh]",
+        "**What happens:** The wheel still turns, but it takes much more effort, and the EPS warning lights come on in the instrument cluster.[^nh]",
+        "**The fix:** Dealers will reprogram the power steering control unit for free. Owner letters are planned for December 14, 2026.[^nh]",
+      ],
+      summary:
+        "Honda is recalling 635,808 Pilot, MDX and TLX vehicles because a software problem can shut off power steering assist while driving. The fix is a free software update at the dealer.",
+      body: [
+        { h: "What's wrong" },
+        "According to Honda's recall report to NHTSA, an improper software setting can put the electric power steering (EPS) system into a failsafe mode that turns off power assist. The steering stays mechanically connected, but steering effort goes up, which Honda says may reduce control of the vehicle and increase the risk of a crash or injury. The EPS warning lights come on when this happens.[^nh]",
+        "autoevolution reports that the error is in a calculation tied to the Driver Attention Monitor, where the software can try to divide by zero under specific conditions. Bosch developed the steering software.[^ae]",
+        { h: "How long it took to find" },
+        "Honda says it got its first report on November 29, 2021. The supplier identified the failure in August 2025, Honda recreated it in December 2025, and in February 2026 Honda confirmed it happens under certain conditions when driving straight. Honda decided on October 22, 2026 that it was a safety defect and that it would recall the vehicles.[^nh] autoevolution reports that error codes on returned parts had been deleted, which made the cause harder to find.[^ae]",
+        { h: "Claims and injuries" },
+        "As of October 22, Honda counted 146 warranty claims, one injury report and no deaths. The report lists no crashes.[^nh]",
+        { h: "What owners can do" },
+        "Dealers were notified on October 30, and owner letters are planned for December 14. The repair is free.[^nh] Owners can check their VIN at nhtsa.gov/recalls, recalls.honda.com or recalls.acura.com.",
+        { h: "What isn't known" },
+        {
+          list: [
+            "How many of the 146 claims happened at speed versus at low speed or while parking.",
+            "Whether drivers get any warning before the assist drops, beyond the warning lights that come on when it happens.",
+            "Whether the update can be done over the air. The report says dealers will reprogram the control unit.",
+          ],
+        },
+      ],
+      take: [
+        "I'm posting this one because steering that gets heavy all at once is a bigger problem when you don't have full strength on one side. If you or someone you know drives a 2023 to 2025 Pilot, 2022 to 2024 MDX or 2021 to 2025 TLX, run the VIN at nhtsa.gov/recalls and book the free update. Pass it along to anyone who drives one.",
+      ],
+      sources: [
+        { id: "nh", title: "Part 573 Safety Recall Report 26V721", publisher: "NHTSA (filed by American Honda Motor Co.)", date: "2026-10-29", url: "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V721-7592.pdf" },
+        { id: "ae", title: "Honda and Acura brands announce 635,808-vehicle recall to address software issue", publisher: "autoevolution", date: "2026-11-12", url: "https://www.autoevolution.com/news/honda-and-acura-brands-announce-635808-vehicle-recall-to-address-software-issue-278346.html" },
+        { id: "ag", title: "Honda Recalls Over 635,000 Vehicles Over Power Steering Failures", publisher: "AutoGuide", url: "https://www.autoguide.com/auto/car-recalls/honda-recalls-over-635-000-vehicles-over-power-steering-failures-44642053" },
+      ],
+    },
+    {
       slug: "bmw-city-driver-assistance-2027",
       title: "BMW says city driver assistance is coming in 2027, Germany first",
       date: "2026-11-16",
