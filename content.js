@@ -133,6 +133,61 @@ window.ACC_CONTENT = {
 
   stories: [
     {
+      slug: "bmw-city-driver-assistance-2027",
+      title: "BMW says city driver assistance is coming in 2027, Germany first",
+      date: "2026-11-16",
+      status: "published",
+      stickers: ["fresh-off-the-lot"],
+      photo: {
+        src: "photos/bmw-city-assist-driver.jpg",
+        alt: "A driver with both hands on the steering wheel of a BMW in Munich city traffic, with a car and a statue ahead and a 3D navigation map of a roundabout on the center screen",
+        caption: "BMW Maps with Driver Assistance in city traffic, from BMW's September 14 release.",
+        credit: "BMW Group", creditUrl: "https://newsroom.bmwgroup.com/global/bmw-maps-displays-navigation-and-driver-assistance-information-in-a-single-3d-view",
+        via: "BMW Group newsroom", viaUrl: "https://newsroom.bmwgroup.com/global/bmw-maps-displays-navigation-and-driver-assistance-information-in-a-single-3d-view",
+      },
+      reported: {
+        outlet: "BMW Group",
+        title: "BMW to expand urban driver assistance functions from 2027",
+        url: "https://newsroom.bmwgroup.com/global/bmw-to-expand-urban-driver-assistance-functions-from-2027/",
+        date: "2026-11-02",
+      },
+      bluf: [
+        "**What happened:** On November 2, BMW announced navigation-guided driver assistance for city driving, starting in Germany in 2027.[^bm][^el]",
+        "**What it is:** SAE Level 2. The driver stays responsible and must monitor traffic, and the functions only work while the system detects an attentive driver.[^bm]",
+        "**Which cars:** The hardware is standard on the new iX3 and iX4 and all variants of the X5, 3 Series and 7 Series. Functions are delivered over the air and can be activated after purchase.[^bm]",
+        "**Not covered:** Price, a U.S. timeline, and whether hands-on or hands-off applies. BMW's release doesn't say.[^bm]",
+      ],
+      summary:
+        "BMW plans a Level 2 system that handles turns, lane changes and roundabouts in cities, starting in Germany in 2027. The driver stays responsible.",
+      body: [
+        { h: "What BMW announced" },
+        "BMW says its navigation-guided driving assistance will work in cities starting in Germany in 2027. With active route guidance from BMW Maps, it helps with turns, urban lane changes, right-of-way situations and roundabouts. Combined with BMW's Motorway and City Assistant, the idea is one system from motorway to countryside to city. Stopping and starting at traffic lights is already available with City Assistant.[^bm] Other countries will follow \"gradually,\" with no dates given, and availability will vary by country.[^bm]",
+        { h: "What it still asks of the driver" },
+        "BMW describes these as SAE Level 2 functions. The driver remains responsible, has to monitor traffic and be ready to intervene. The functions are only available while the system detects that the driver stays attentive, and BMW says it checks this continuously.[^bm] Electrive adds that this relies on an in-cabin camera.[^el]",
+        { h: "Symbiotic Drive" },
+        "BMW calls Symbiotic Drive a cooperative approach in which the driver can still accelerate, steer and brake while the assistance is on, and the system adapts to the driver's style.[^bm]",
+        { h: "Approval and rollout" },
+        "The system is planned for approval under the updated UN Regulation 171 (DCAS Series 2). An independent technical service has completed real-world tests, and approval is \"subject to official confirmation in early 2027.\"[^bm] BMW has not disclosed pricing. For comparison, electrive cites existing Level 2 packages at roughly 1,000 to 5,000 euros, or a subscription of about 1,500 euros for four years.[^el]",
+        { h: "What isn't known" },
+        {
+          list: [
+            "Whether the system is hands-on or hands-off. BMW's release doesn't say.",
+            "When or whether it reaches the U.S.",
+            "What it will cost.",
+            "How it hands control back when the driver can't respond right away.",
+          ],
+        },
+      ],
+      take: [
+        "Okay BMW, I see you. A car that helps with turns and roundabouts in the city sounds great to me, and it's a step in the right direction for a \"legacy\" manufacturer. It shows they still believe there's a real need for this kind of assistance, especially where it matters, like busy city streets. I'm cautiously optimistic given how few details there are, because Level 2 means I'm still the one on the hook. Being on the hook isn't the part that concerns me. I have right-sided weakness, and not knowing when a system will hand the car back to me, how much warning I'll get, or what it expects me to do in that moment are details I hope BMW gives very serious consideration. That matters to me just as much as what the car can do on its own.",
+        "What I like is that the hardware is already going into new cars and the software turns on later. That's another thing to be cautiously optimistic about, since we've seen trust-me-bro hardware that promises things the software doesn't deliver (I'm looking at you, Volvo EX90 and Tesla). Hopefully that gives BMW time to collaborate with disabled drivers and ask how the takeover prompts should work before any of this hits the road. I still want to know if it's hands-on or hands-off and if it's coming to the U.S. at all, and I'll update this when I find out.",
+      ],
+      sources: [
+        { id: "bm", title: "BMW to expand urban driver assistance functions from 2027", publisher: "BMW Group", date: "2026-11-02", url: "https://newsroom.bmwgroup.com/global/bmw-to-expand-urban-driver-assistance-functions-from-2027/" },
+        { id: "el", title: "Level 2 autonomy in urban areas: BMW announces driver assistant upgrade", publisher: "electrive, Victoria Zippmann", date: "2026-11-02", url: "https://www.electrive.com/2026/11/02/level-2-autonomy-in-urban-areas-bmw-announces-driver-assistant-upgrade/" },
+      ],
+    },
+    {
       slug: "dc-robotaxi-bill-wheelchair-accessible-vehicles",
       title: "DC's rewritten robotaxi bill sets dates for wheelchair-accessible vehicles",
       date: "2026-11-12",
